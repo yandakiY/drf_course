@@ -180,11 +180,11 @@ Add a username, email and password.
 The following commands will call the API end point:
 
 ```
-curl -XPOST -F 'username=**your_username**' -F 'password=**your_password**' http://api:8000/api-token-auth/
+curl -XPOST -F 'username=yandaki' -F 'password=yvesyves1' http://api:8000/api-token-auth/
 ```
 
 ```
-http post http://api:8000/api-token-auth/ username=**your_username** password=**your_password**
+http post http://api:8000/api-token-auth/ username=yandaki password=yvesyves1
 ```
 
 With any luck, you should see something that looks like the following:
